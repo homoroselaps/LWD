@@ -1,0 +1,1007 @@
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    @-webkit-keyframes orbit {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(75px); }
+  5% {
+    -webkit-transform: rotate(18deg) translateX(80px); }
+  10% {
+    -webkit-transform: rotate(36deg) translateX(75px); }
+  15% {
+    -webkit-transform: rotate(54deg) translateX(70px); }
+  20% {
+    -webkit-transform: rotate(72deg) translateX(75px); }
+  25% {
+    -webkit-transform: rotate(90deg) translateX(80px); }
+  30% {
+    -webkit-transform: rotate(108deg) translateX(75px); }
+  35% {
+    -webkit-transform: rotate(126.0deg) translateX(70px); }
+  40% {
+    -webkit-transform: rotate(144deg) translateX(75px); }
+  45% {
+    -webkit-transform: rotate(162deg) translateX(80px); }
+  50% {
+    -webkit-transform: rotate(180deg) translateX(75px); }
+  55% {
+    -webkit-transform: rotate(198deg) translateX(70px); }
+  60% {
+    -webkit-transform: rotate(216deg) translateX(75px); }
+  65% {
+    -webkit-transform: rotate(234deg) translateX(80px); }
+  70% {
+    -webkit-transform: rotate(252.0deg) translateX(75px); }
+  75% {
+    -webkit-transform: rotate(270deg) translateX(70px); }
+  80% {
+    -webkit-transform: rotate(288deg) translateX(75px); }
+  85% {
+    -webkit-transform: rotate(306deg) translateX(80px); }
+  90% {
+    -webkit-transform: rotate(324deg) translateX(75px); }
+  95% {
+    -webkit-transform: rotate(342deg) translateX(70px); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(75px); } }
+@keyframes orbit {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(75px);
+    transform: rotate(0deg) translateX(75px); }
+  5% {
+    -webkit-transform: rotate(18deg) translateX(80px);
+    transform: rotate(18deg) translateX(80px); }
+  10% {
+    -webkit-transform: rotate(36deg) translateX(75px);
+    transform: rotate(36deg) translateX(75px); }
+  15% {
+    -webkit-transform: rotate(54deg) translateX(70px);
+    transform: rotate(54deg) translateX(70px); }
+  20% {
+    -webkit-transform: rotate(72deg) translateX(75px);
+    transform: rotate(72deg) translateX(75px); }
+  25% {
+    -webkit-transform: rotate(90deg) translateX(80px);
+    transform: rotate(90deg) translateX(80px); }
+  30% {
+    -webkit-transform: rotate(108deg) translateX(75px);
+    transform: rotate(108deg) translateX(75px); }
+  35% {
+    -webkit-transform: rotate(126.0deg) translateX(70px);
+    transform: rotate(126.0deg) translateX(70px); }
+  40% {
+    -webkit-transform: rotate(144deg) translateX(75px);
+    transform: rotate(144deg) translateX(75px); }
+  45% {
+    -webkit-transform: rotate(162deg) translateX(80px);
+    transform: rotate(162deg) translateX(80px); }
+  50% {
+    -webkit-transform: rotate(180deg) translateX(75px);
+    transform: rotate(180deg) translateX(75px); }
+  55% {
+    -webkit-transform: rotate(198deg) translateX(70px);
+    transform: rotate(198deg) translateX(70px); }
+  60% {
+    -webkit-transform: rotate(216deg) translateX(75px);
+    transform: rotate(216deg) translateX(75px); }
+  65% {
+    -webkit-transform: rotate(234deg) translateX(80px);
+    transform: rotate(234deg) translateX(80px); }
+  70% {
+    -webkit-transform: rotate(252.0deg) translateX(75px);
+    transform: rotate(252.0deg) translateX(75px); }
+  75% {
+    -webkit-transform: rotate(270deg) translateX(70px);
+    transform: rotate(270deg) translateX(70px); }
+  80% {
+    -webkit-transform: rotate(288deg) translateX(75px);
+    transform: rotate(288deg) translateX(75px); }
+  85% {
+    -webkit-transform: rotate(306deg) translateX(80px);
+    transform: rotate(306deg) translateX(80px); }
+  90% {
+    -webkit-transform: rotate(324deg) translateX(75px);
+    transform: rotate(324deg) translateX(75px); }
+  95% {
+    -webkit-transform: rotate(342deg) translateX(70px);
+    transform: rotate(342deg) translateX(70px); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(75px);
+    transform: rotate(360deg) translateX(75px); } }
+/* line 29, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+#logo #nucleus {
+  fill: #AD4838;
+  position: relative; }
+/* line 35, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+#logo #particles circle {
+  -webkit-animation: orbit 120s linear infinite;
+  animation: orbit 120s linear infinite;
+  -webkit-transform-origin: 160px 160px;
+  transform-origin: 160px 160px;
+  fill: #AD4838;
+  fill-opacity: 0.3; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(0) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(1) {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(2) {
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(3) {
+    -webkit-animation-delay: -3s;
+    animation-delay: -3s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(4) {
+    -webkit-animation-delay: -4s;
+    animation-delay: -4s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(5) {
+    -webkit-animation-delay: -5s;
+    animation-delay: -5s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(6) {
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(7) {
+    -webkit-animation-delay: -7s;
+    animation-delay: -7s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(8) {
+    -webkit-animation-delay: -8s;
+    animation-delay: -8s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(9) {
+    -webkit-animation-delay: -9s;
+    animation-delay: -9s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(10) {
+    -webkit-animation-delay: -10s;
+    animation-delay: -10s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(11) {
+    -webkit-animation-delay: -11s;
+    animation-delay: -11s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(12) {
+    -webkit-animation-delay: -12s;
+    animation-delay: -12s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(13) {
+    -webkit-animation-delay: -13s;
+    animation-delay: -13s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(14) {
+    -webkit-animation-delay: -14s;
+    animation-delay: -14s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(15) {
+    -webkit-animation-delay: -15s;
+    animation-delay: -15s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(16) {
+    -webkit-animation-delay: -16s;
+    animation-delay: -16s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(17) {
+    -webkit-animation-delay: -17s;
+    animation-delay: -17s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(18) {
+    -webkit-animation-delay: -18s;
+    animation-delay: -18s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(19) {
+    -webkit-animation-delay: -19s;
+    animation-delay: -19s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(20) {
+    -webkit-animation-delay: -20s;
+    animation-delay: -20s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(21) {
+    -webkit-animation-delay: -21s;
+    animation-delay: -21s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(22) {
+    -webkit-animation-delay: -22s;
+    animation-delay: -22s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(23) {
+    -webkit-animation-delay: -23s;
+    animation-delay: -23s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(24) {
+    -webkit-animation-delay: -24s;
+    animation-delay: -24s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(25) {
+    -webkit-animation-delay: -25s;
+    animation-delay: -25s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(26) {
+    -webkit-animation-delay: -26s;
+    animation-delay: -26s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(27) {
+    -webkit-animation-delay: -27s;
+    animation-delay: -27s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(28) {
+    -webkit-animation-delay: -28s;
+    animation-delay: -28s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(29) {
+    -webkit-animation-delay: -29s;
+    animation-delay: -29s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(30) {
+    -webkit-animation-delay: -30s;
+    animation-delay: -30s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(31) {
+    -webkit-animation-delay: -31.0s;
+    animation-delay: -31.0s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(32) {
+    -webkit-animation-delay: -32s;
+    animation-delay: -32s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(33) {
+    -webkit-animation-delay: -33s;
+    animation-delay: -33s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(34) {
+    -webkit-animation-delay: -34s;
+    animation-delay: -34s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(35) {
+    -webkit-animation-delay: -35s;
+    animation-delay: -35s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(36) {
+    -webkit-animation-delay: -36s;
+    animation-delay: -36s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(37) {
+    -webkit-animation-delay: -37s;
+    animation-delay: -37s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(38) {
+    -webkit-animation-delay: -38s;
+    animation-delay: -38s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(39) {
+    -webkit-animation-delay: -39s;
+    animation-delay: -39s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(40) {
+    -webkit-animation-delay: -40s;
+    animation-delay: -40s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(41) {
+    -webkit-animation-delay: -41s;
+    animation-delay: -41s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(42) {
+    -webkit-animation-delay: -42s;
+    animation-delay: -42s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(43) {
+    -webkit-animation-delay: -43s;
+    animation-delay: -43s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(44) {
+    -webkit-animation-delay: -44s;
+    animation-delay: -44s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(45) {
+    -webkit-animation-delay: -45s;
+    animation-delay: -45s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(46) {
+    -webkit-animation-delay: -46s;
+    animation-delay: -46s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(47) {
+    -webkit-animation-delay: -47s;
+    animation-delay: -47s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(48) {
+    -webkit-animation-delay: -48s;
+    animation-delay: -48s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(49) {
+    -webkit-animation-delay: -49s;
+    animation-delay: -49s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(50) {
+    -webkit-animation-delay: -50s;
+    animation-delay: -50s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(51) {
+    -webkit-animation-delay: -51s;
+    animation-delay: -51s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(52) {
+    -webkit-animation-delay: -52s;
+    animation-delay: -52s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(53) {
+    -webkit-animation-delay: -53s;
+    animation-delay: -53s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(54) {
+    -webkit-animation-delay: -54s;
+    animation-delay: -54s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(55) {
+    -webkit-animation-delay: -55s;
+    animation-delay: -55s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(56) {
+    -webkit-animation-delay: -56s;
+    animation-delay: -56s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(57) {
+    -webkit-animation-delay: -57s;
+    animation-delay: -57s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(58) {
+    -webkit-animation-delay: -58s;
+    animation-delay: -58s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(59) {
+    -webkit-animation-delay: -59s;
+    animation-delay: -59s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(60) {
+    -webkit-animation-delay: -60s;
+    animation-delay: -60s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(61) {
+    -webkit-animation-delay: -61s;
+    animation-delay: -61s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(62) {
+    -webkit-animation-delay: -62.0s;
+    animation-delay: -62.0s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(63) {
+    -webkit-animation-delay: -63s;
+    animation-delay: -63s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(64) {
+    -webkit-animation-delay: -64s;
+    animation-delay: -64s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(65) {
+    -webkit-animation-delay: -65s;
+    animation-delay: -65s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(66) {
+    -webkit-animation-delay: -66s;
+    animation-delay: -66s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(67) {
+    -webkit-animation-delay: -67s;
+    animation-delay: -67s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(68) {
+    -webkit-animation-delay: -68s;
+    animation-delay: -68s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(69) {
+    -webkit-animation-delay: -69s;
+    animation-delay: -69s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(70) {
+    -webkit-animation-delay: -70s;
+    animation-delay: -70s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(71) {
+    -webkit-animation-delay: -71s;
+    animation-delay: -71s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(72) {
+    -webkit-animation-delay: -72s;
+    animation-delay: -72s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(73) {
+    -webkit-animation-delay: -73s;
+    animation-delay: -73s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(74) {
+    -webkit-animation-delay: -74s;
+    animation-delay: -74s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(75) {
+    -webkit-animation-delay: -75s;
+    animation-delay: -75s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(76) {
+    -webkit-animation-delay: -76s;
+    animation-delay: -76s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(77) {
+    -webkit-animation-delay: -77s;
+    animation-delay: -77s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(78) {
+    -webkit-animation-delay: -78s;
+    animation-delay: -78s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(79) {
+    -webkit-animation-delay: -79s;
+    animation-delay: -79s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(80) {
+    -webkit-animation-delay: -80s;
+    animation-delay: -80s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(81) {
+    -webkit-animation-delay: -81s;
+    animation-delay: -81s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(82) {
+    -webkit-animation-delay: -82s;
+    animation-delay: -82s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(83) {
+    -webkit-animation-delay: -83s;
+    animation-delay: -83s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(84) {
+    -webkit-animation-delay: -84s;
+    animation-delay: -84s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(85) {
+    -webkit-animation-delay: -85s;
+    animation-delay: -85s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(86) {
+    -webkit-animation-delay: -86s;
+    animation-delay: -86s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(87) {
+    -webkit-animation-delay: -87s;
+    animation-delay: -87s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(88) {
+    -webkit-animation-delay: -88s;
+    animation-delay: -88s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(89) {
+    -webkit-animation-delay: -89s;
+    animation-delay: -89s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(90) {
+    -webkit-animation-delay: -90s;
+    animation-delay: -90s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(91) {
+    -webkit-animation-delay: -91s;
+    animation-delay: -91s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(92) {
+    -webkit-animation-delay: -92s;
+    animation-delay: -92s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(93) {
+    -webkit-animation-delay: -93s;
+    animation-delay: -93s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(94) {
+    -webkit-animation-delay: -94s;
+    animation-delay: -94s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(95) {
+    -webkit-animation-delay: -95s;
+    animation-delay: -95s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(96) {
+    -webkit-animation-delay: -96s;
+    animation-delay: -96s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(97) {
+    -webkit-animation-delay: -97s;
+    animation-delay: -97s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(98) {
+    -webkit-animation-delay: -98s;
+    animation-delay: -98s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(99) {
+    -webkit-animation-delay: -99s;
+    animation-delay: -99s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(100) {
+    -webkit-animation-delay: -100s;
+    animation-delay: -100s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(101) {
+    -webkit-animation-delay: -101s;
+    animation-delay: -101s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(102) {
+    -webkit-animation-delay: -102s;
+    animation-delay: -102s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(103) {
+    -webkit-animation-delay: -103s;
+    animation-delay: -103s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(104) {
+    -webkit-animation-delay: -104s;
+    animation-delay: -104s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(105) {
+    -webkit-animation-delay: -105s;
+    animation-delay: -105s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(106) {
+    -webkit-animation-delay: -106s;
+    animation-delay: -106s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(107) {
+    -webkit-animation-delay: -107s;
+    animation-delay: -107s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(108) {
+    -webkit-animation-delay: -108s;
+    animation-delay: -108s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(109) {
+    -webkit-animation-delay: -109s;
+    animation-delay: -109s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(110) {
+    -webkit-animation-delay: -110s;
+    animation-delay: -110s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(111) {
+    -webkit-animation-delay: -111s;
+    animation-delay: -111s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(112) {
+    -webkit-animation-delay: -112s;
+    animation-delay: -112s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(113) {
+    -webkit-animation-delay: -113s;
+    animation-delay: -113s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(114) {
+    -webkit-animation-delay: -114s;
+    animation-delay: -114s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(115) {
+    -webkit-animation-delay: -115s;
+    animation-delay: -115s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(116) {
+    -webkit-animation-delay: -116s;
+    animation-delay: -116s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(117) {
+    -webkit-animation-delay: -117s;
+    animation-delay: -117s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(118) {
+    -webkit-animation-delay: -118s;
+    animation-delay: -118s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(119) {
+    -webkit-animation-delay: -119s;
+    animation-delay: -119s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 45, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(120) {
+    -webkit-animation-delay: -120s;
+    animation-delay: -120s;
+    -webkit-animation-duration: 108s;
+    animation-duration: 108s; }
+  /* line 51, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(even) {
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s; }
+  /* line 56, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(odd) {
+    -webkit-animation-duration: 192s;
+    animation-duration: 192s; }
+  /* line 60, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(3) {
+    -webkit-animation-duration: 72s;
+    animation-duration: 72s; }
+  /* line 64, /home/travis/build/ludwigschubert/lesswrong-de/source/assets/images/logo.css.scss */
+  #logo #particles circle:nth-child(5) {
+    -webkit-animation-duration: 792s;
+    animation-duration: 792s; }
+
+  </style>
+
+  <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="particles" stroke="none" stroke-opacity="0.4" stroke-width="1" fill="#AD4838" fill-rule="evenodd">
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+        <circle cx="145" cy="160" r="14"></circle>
+        <circle cx="155" cy="160" r="18"></circle>
+        <circle cx="100" cy="100" r="8"></circle>
+        <circle cx="190" cy="160" r="4"></circle>
+        <circle cx="175" cy="175" r="24"></circle>
+        <circle cx="170" cy="150" r="30"></circle>
+        <circle cx="145" cy="175" r="17"></circle>
+        <circle cx="140" cy="190" r="6"></circle>
+        <circle cx="155" cy="110" r="2"></circle>
+        <circle cx="165" cy="155" r="3"></circle>
+        <circle cx="160" cy="165" r="4"></circle>
+        <circle cx="145" cy="160" r="14"></circle>
+      
+    </g>
+    <g id="caret">
+      <path d="M183.607,133.665l52.728,52.728l-23.607,23.607l-52.728,-52.728l-52.728,52.728l-23.607,-23.607l52.728,-52.728l-0.058,-0.058l23.608,-23.607l0.057,0.057l0.057,-0.057l23.608,23.607l-0.058,0.058Z" style="fill:#fff;"/>
+    </g>
+  </g>
+</svg>
